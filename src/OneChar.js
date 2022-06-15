@@ -20,7 +20,7 @@ const OneChar = ({ data }) => {
         className="image"
         src={char.image}
         alt={char.name}
-        style={{ width: "30%", height: "30%" }}
+        style={{ width: "20%", height: "20%" }}
         onClick={() => navigate(`/`)}
       />
       <h1>{char.name}</h1>
