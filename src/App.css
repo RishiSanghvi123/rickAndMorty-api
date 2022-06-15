@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.charContainer {
+  display: inline-block;
+  margin: 20px;
+}
+
+.increase {
+  size: 300%;
+  background-color: black;
+}
+
+.addInfo {
+  font-size: medium;
+}
+
+.container {
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
