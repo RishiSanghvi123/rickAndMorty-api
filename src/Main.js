@@ -18,6 +18,7 @@ export default function Main({ data }) {
   let navigate = useNavigate();
   return (
     <div className="container">
+      <h1>Know your Rick & Morty characters</h1>
       {data.map((char, index) => {
         return (
           <div key={index} className="charContainer">

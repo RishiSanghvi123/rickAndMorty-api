@@ -16,6 +16,7 @@ const OneChar = ({ data }) => {
   let navigate = useNavigate();
   return (
     <div>
+      <h1>{char.name}</h1>
       <img
         className="image"
         src={char.image}
@@ -23,7 +24,7 @@ const OneChar = ({ data }) => {
         style={{ width: "20%", height: "20%" }}
         onClick={() => navigate(`/`)}
       />
-      <h1>{char.name}</h1>
+
       <h2>Species: {char.species} </h2>
       <div>
         <p className="addInfo">Status: {char.status}</p>
