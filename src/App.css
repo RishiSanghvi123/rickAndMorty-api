@@ -24,3 +24,7 @@
 .image{
   cursor: pointer;
 }
+
+.image:hover{
+  opacity: 0.5;
+}
